@@ -15,6 +15,11 @@ body {
   src: url(quicksand-variablefont_wght-webfont.woff2);
 }
 
+@font-face {
+  font-family: Pontano Sans;
+  src: url(pontanosans-regular-webfont.woff2);
+}
+
 
 
 header nav li {
