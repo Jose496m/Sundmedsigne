@@ -20,6 +20,25 @@ body {
   src: url(pontanosans-regular-webfont.woff2);
 }
 
+h1 {
+  font-family: Quicksand;
+  color: black;
+}
+
+h2 {
+  font-family: Quicksand;
+  color: black;
+}
+
+h3 {
+  font-family: Pontano Sans;
+  color: black;
+}
+
+p {
+  font-family: Pontano Sans;
+  color: black;
+}
 
 
 header nav li {
