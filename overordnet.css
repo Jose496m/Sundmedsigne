@@ -1,3 +1,10 @@
+@font-face {
+  font-family: Quicksand;
+  src: url(quicksand-variablefont_wght-webfont.woff2);
+}
+
+
+
 header nav li {
   text-align: right;
   list-style-type: none;
