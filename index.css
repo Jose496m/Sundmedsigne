@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+.overskrift1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overskrift2 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.forsidebillede {
+  width: 100%;
+  display: block;
+  align-self: stretch;
+  object-fit: cover;
+}
+
+.forsidebillede2 {
+  width: 40%;
+  gap: 10%;
+  margin: 10%;
+}
