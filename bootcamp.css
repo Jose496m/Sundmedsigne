@@ -1,4 +1,55 @@
+.imgbootcamp {
+  width: 100%;
+  display: block;
+  height: auto;
+  margin: 1rem;
+  border: #02c3bd solid 5px;
+}
+
 .grid1_1_1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+
+.ctabootcamp {
+  font-family: Quicksand;
+  background-color: #037171;
+  color: white;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  padding: 0.7rem;
+  font-size: 0.8rem;
+  width: 9rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+
+.ctabootcamp:hover {
+  color: white;
+  background-color: #02c3bd;
+}
+
+.h1bootcamp {
+  margin: 5rem;
+  text-align: center;
+}
+
+.h2bootcamp {
+  margin: 2rem;
+  text-align: center;
+  border-top: #02c3bd solid 2px;
+  border-bottom: #02c3bd solid 2px;
+  padding: 0.5rem;
+}
+
+.h3bootcamp {
+  margin: 0.5rem;
+}
+
+.pbootcamp {
+  line-height: 1.6rem;
+  margin-top: 1rem;
 }
