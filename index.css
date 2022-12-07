@@ -31,3 +31,13 @@ h2 {
   gap: 10%;
   margin: 10%;
 }
+
+.forsidebillede2 {
+  font-family: Quicksand;
+  background-color: #02c3bd;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  padding: 0.7rem;
+}
