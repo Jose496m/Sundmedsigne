@@ -25,7 +25,7 @@ nav ul {
 }
 
 nav ul li {
-    width: 125px;
+    width: 110px;
     text-align: center;
 }
 
@@ -38,14 +38,32 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: none;
-    padding: 10px;
-    background-color: ;
-    border-radius: 25% 10%;
+    padding: 15px;
+    background-color: #02c3bd;
+    border-radius: 30px;
     font-size: 1.1rem;
     font-family: Quicksand;
-    color: black;
+    color: white;
 }
 
 .logo {
-    width: 70%;
+    width: 20%;
+}
+
+@media (max-width: 1050px) {
+    .logo {
+        width: 70%;
+    }
+
+    nav ul li {
+        padding: 20px;
+        margin-inline: auto;
+    }
+
+}
+
+nav {
+    --less-than: 1050;
+    --burger-lines: #02c3bd;;
+    --burger-border: none;
 }
