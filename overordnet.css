@@ -5,10 +5,14 @@
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   max-width: 1200px;
   margin-inline: auto;
   padding: 5%;
 }
+
 
 @font-face {
   font-family: Quicksand;
@@ -55,15 +59,12 @@ ul li {
   line-height: normal;
 }
 
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-}
 
 .grid1_1_1_1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer {
+  margin-top: auto;
 }
