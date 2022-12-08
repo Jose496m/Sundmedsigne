@@ -53,3 +53,9 @@
   line-height: 1.6rem;
   margin-top: 1rem;
 }
+
+@media (min-width: 800px) {
+  nav {
+    display: none;
+  }
+}
