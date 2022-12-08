@@ -6,10 +6,14 @@
   border: #02c3bd solid 5px;
 }
 
-.grid1_1_1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 3rem;
+.some {
+  height: 30%;
+}
+
+.flexboxboot {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 .ctabootcamp {
@@ -24,6 +28,7 @@
   width: 9rem;
   margin-right: 3rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   text-decoration: none;
 }
 
@@ -52,6 +57,11 @@
 .pbootcamp {
   line-height: 1.6rem;
   margin-top: 1rem;
+}
+
+.flexfooter {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 @media (min-width: 800px) {
