@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+  gap: 30px;
 }
 
 .ctabootcamp {
@@ -19,12 +20,15 @@
   color: white;
   border-radius: 2rem;
   justify-content: center;
-  padding: 1rem;
   font-size: 0.8rem;
   margin-right: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-decoration: none;
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 
 .ctabootcamp:hover {
@@ -59,13 +63,8 @@
 }
 
 .flexboxbootdiv {
-  margin-left: 3%;
-  margin-right: 3%;
   width: 30%;
 }
-
-@media (min-width: 800px) {
-  nav {
-    display: none;
-  }
+.divfelx {
+  margin-inline: auto;
 }
