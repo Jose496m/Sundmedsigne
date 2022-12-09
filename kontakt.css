@@ -1,0 +1,34 @@
+.flexbox_kontakt {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.signe_kontakt {
+  width: 88%;
+  border: #02c3bd solid 5px;
+  margin-top: 7%;
+}
+
+.some_kontakt {
+  width: 25%;
+}
+
+.forlob_kontakt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+}
+
+p {
+  padding-bottom: 5%;
+}
+
+h1 {
+  padding-bottom: 5%;
+}
+
+h2 {
+  padding-bottom: 1%;
+  padding-top: 16%;
+}
