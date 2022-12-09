@@ -50,10 +50,6 @@ h1 {
   flex-direction: column;
 }
 
-p {
-  line-height: 2;
-}
-
 .sundhed {
   margin: 3%;
   border-top: #02c3bd solid 2px;
@@ -68,4 +64,13 @@ p {
   border-bottom: #02c3bd solid 2px;
   padding: 0.5rem;
   text-align: center;
+}
+.flexfooter {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+}
+
+.divflex {
+  margin-inline: auto;
 }
