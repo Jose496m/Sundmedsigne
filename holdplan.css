@@ -28,3 +28,60 @@ td {
 .tableformat {
   border-radius: 10%;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  align-items: center;
+  margin: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+nav ul li {
+  width: 110px;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: Quicksand;
+  color: black;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  padding: 15px;
+  background-color: #02c3bd;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-family: Quicksand;
+  color: white;
+}
+
+.logo {
+  width: 20%;
+}
+
+@media (max-width: 1050px) {
+  .logo {
+    width: 70%;
+  }
+
+  nav ul li {
+    padding: 20px;
+    margin-inline: auto;
+  }
+}
+
+nav {
+  --less-than: 1050;
+  --burger-lines: #02c3bd;
+  --burger-border: none;
+}
