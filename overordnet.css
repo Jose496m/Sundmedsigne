@@ -74,12 +74,27 @@ footer {
 
 
 
+@font-face {
+  font-family: Quicksand;
+  src: url(quicksand-variablefont_wght-webfont.woff2);
+}
+
+body {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 5%;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   top: 0;
   align-items: center;
   margin: 20px;
+}
+
+header a {
+  width: 22%;
 }
 
 nav ul {
@@ -112,12 +127,16 @@ nav ul li a:hover {
 }
 
 .logo {
-  width: 20%;
+  width: 100%;
 }
 
 @media (max-width: 1050px) {
-  .logo {
+  header a {
       width: 70%;
+  }
+
+  .logo {
+      width: 100%;
   }
 
   nav ul li {
@@ -153,6 +172,11 @@ nav {
   height: 30%;
 }
 
+.mail {
+  text-decoration: none;
+  color: black;
+}
+
 @media (max-width: 700px) {
   .flexfooter {
     flex-direction: column;
@@ -161,3 +185,4 @@ nav {
 
 
 }
+
