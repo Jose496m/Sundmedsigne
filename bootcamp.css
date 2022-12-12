@@ -3,10 +3,6 @@
   border: #02c3bd solid 5px;
 }
 
-.some {
-  height: 30%;
-}
-
 .flexboxboot {
   display: flex;
   justify-content: space-evenly;
@@ -56,15 +52,16 @@
   margin-bottom: 3rem;
 }
 
-.flexfooter {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 4rem;
-}
 
-.flexboxbootdiv {
-  width: 30%;
-}
-.divfelx {
-  margin-inline: auto;
+
+@media (max-width: 1050px) {
+  .flexboxboot {
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  .flexboxbootdiv {
+    width: 100%;
+  }
+
 }
