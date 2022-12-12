@@ -1,20 +1,16 @@
-.imgholdtræning {
+.imgbootcamp {
   width: 100%;
   border: #02c3bd solid 5px;
-  }
-  
-.some {
-  height: 30%;
-  }
-  
-.flexboxholdtræningdiv {
+}
+
+.flexboxboot {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   gap: 30px;
-  }
-  
-.ctaholdtræning {
+}
+
+.ctabootcamp {
   font-family: Quicksand;
   background-color: #037171;
   color: white;
@@ -29,112 +25,43 @@
   padding-right: 2.3rem;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
-  }
-  
-.ctaholdtræning:hover {
+}
+
+.ctabootcamp:hover {
   color: white;
   background-color: #02c3bd;
-  }
-  
-.h1holdtræning {
+}
+
+.h1bootcamp {
   margin: 5rem;
   text-align: center;
-  }
-  
-.h2holdtræning {
+}
+
+.h2bootcamp {
   text-align: center;
   border-top: #02c3bd solid 2px;
   border-bottom: #02c3bd solid 2px;
   margin-top: 4%;
-    margin-bottom: 4%;
-    padding: 2%;
-  }
-  
-  .pholdtræning {
-    line-height: 1.6rem;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-  }
-  
-  .flexfooter {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 4rem;
-  }
-  
-  .flexboxholdtræningdiv {
-    width: 30%;
-  }
-  .divflex {
-    margin-inline: auto;
-  }
-
-  @font-face {
-    font-family: Quicksand;
-    src: url(quicksand-variablefont_wght-webfont.woff2);
-  }
-
-body {
-    max-width: 1200px;
-    margin-inline: auto;
-    padding: 5%;
+  margin-bottom: 4%;
+  padding: 2%;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    top: 0;
-    align-items: center;
-    margin: 20px;
+.pbootcamp {
+  line-height: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
 
-nav ul li {
-    width: 110px;
-    text-align: center;
-}
-
-nav ul li a {
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-family: Quicksand;
-    color: black;
-}
-
-nav ul li a:hover {
-    text-decoration: none;
-    padding: 15px;
-    background-color: #02c3bd;
-    border-radius: 30px;
-    font-size: 1.1rem;
-    font-family: Quicksand;
-    color: white;
-}
-
-.logo {
-    width: 20%;
-}
 
 @media (max-width: 1050px) {
-    .logo {
-        width: 70%;
-    }
+  .flexboxboot {
+    flex-direction: column;
+    gap: 70px;
+  }
 
-    nav ul li {
-        padding: 20px;
-        margin-inline: auto;
-    }
+  .flexboxbootdiv {
+    width: 100%;
+  }
 
-}
-
-nav {
-    --less-than: 1050;
-    --burger-lines: #02c3bd;;
-    --burger-border: none;
 }
