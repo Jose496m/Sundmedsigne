@@ -1,43 +1,60 @@
+.menuforside {
+  color: white;
+  font-weight: 700;
+}
+
+
 h1 {
   text-align: center;
+  margin-top: 19%;
+  font-size: 7rem;
+  color: white;
+  border-top: 2px solid #02c3bd;
+  border-bottom: 2px solid #02c3bd;
+  padding: 2%;
 }
 
-.overskrift1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 2%;
+  margin-bottom: 35%;
+  color: white;
 }
 
-.overskrift2 {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 8%;
+h3 {
+  font-size: 2rem;
 }
 
-.forsidebillede {
-  width: 100%;
-  display: block;
-  align-self: stretch;
+
+p {
+  font-size: 1.2rem;
+}
+
+.video {
+  width: 100vw;
+  height: 100vh;
   object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .forsidebillede2 {
   width: 70%;
-  gap: 10%;
-  margin: 5%;
+  margin-inline: auto;
 }
 
 .forsidebillede2 {
   font-family: Quicksand;
-  background-color: #02c3bd;
+  border: 5px solid #02c3bd;
   color: white;
 
   display: flex;
   justify-content: center;
-  padding: 0.7rem;
 }
 
 .grid_2-2 {
@@ -59,76 +76,10 @@ h1 {
 }
 
 .sundhed2 {
-  margin: 10%;
+  margin-top: 0%;
+  margin-bottom: 5%;
   border-top: #02c3bd solid 2px;
   border-bottom: #02c3bd solid 2px;
   padding: 0.5rem;
   text-align: center;
-}
-.flexfooter {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 4rem;
-}
-
-.divflex {
-  margin-inline: auto;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  top: 0;
-  align-items: center;
-  margin: 20px;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-
-nav ul li {
-  width: 110px;
-  text-align: center;
-}
-
-nav ul li a {
-  text-decoration: none;
-  font-size: 1.1rem;
-  font-family: Quicksand;
-  color: black;
-}
-
-nav ul li a:hover {
-  text-decoration: none;
-  padding: 15px;
-  background-color: #02c3bd;
-  border-radius: 30px;
-  font-size: 1.1rem;
-  font-family: Quicksand;
-  color: white;
-}
-
-.logo {
-  width: 20%;
-}
-
-@media (max-width: 1050px) {
-  .logo {
-    width: 70%;
-  }
-
-  nav ul li {
-    padding: 20px;
-    margin-inline: auto;
-  }
-}
-
-nav {
-  --less-than: 1050;
-  --burger-lines: #02c3bd;
-  --burger-border: none;
 }
