@@ -4,6 +4,7 @@
 }
 
 
+
 h1 {
   text-align: center;
   margin-top: 19%;
@@ -18,7 +19,7 @@ h2 {
   text-align: center;
   font-size: 2.5rem;
   padding-top: 2%;
-  margin-bottom: 35%;
+  margin-bottom: 40%;
   color: white;
 }
 
@@ -48,31 +49,45 @@ p {
 }
 
 .forsidebillede2 {
-  width: 70%;
-  margin-inline: auto;
-}
-
-.forsidebillede2 {
   font-family: Quicksand;
   border: 5px solid #02c3bd;
   color: white;
-
-  display: flex;
-  justify-content: center;
+  width: 65%;
 }
 
-.grid_2-2 {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
+.flex_2-2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 8%;
 }
 
 .flex_column {
   display: flex;
   flex-direction: column;
+  width: 50%;
+}
+
+.flex_column1 {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.flex_column2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 50%;
+}
+
+video {
+  width: 95%;
+  margin-bottom: 3%;
 }
 
 .sundhed {
-  margin: 3%;
+  margin-top: 7%;
+  margin-bottom: 3%;
   border-top: #02c3bd solid 2px;
   border-bottom: #02c3bd solid 2px;
   padding: 0.5rem;
@@ -86,4 +101,57 @@ p {
   border-bottom: #02c3bd solid 2px;
   padding: 0.5rem;
   text-align: center;
+}
+
+
+@media (max-width: 1050px) {
+  .flex_2-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex_column {
+    width: 100%;
+  }
+
+  .flex_column1 {
+    width: 100%;
+  }
+
+  video {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .forsidebillede2 {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+
+  .video {
+    display: none;
+  }
+
+  h1 {
+    font-size: 5rem;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin-top: 30%;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 10%;
+    margin-bottom: 50%;
+  }
+
+  body {
+    background-image: url("img/placeholder.webp");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 300%;
+  }
+
+  
+
 }
