@@ -1,4 +1,50 @@
 h1 {
     text-align: center;
     margin-top: 8%;
+    margin-bottom: 5%;
 }
+
+h2 {
+    border-bottom: solid 1px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    color: #037171;
+    text-align: center;
+}
+
+.flexboxpriser {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexboxpriserdiv1 {
+    width: 30%;
+    border: solid 1px black;
+}
+
+.flexboxpriserdiv2 {
+    margin: 5%;
+    padding: 3%;
+    border: solid 1px;
+}
+
+@media (max-width: 1050px) {
+    .flexboxpriser {
+      flex-direction: column;
+      gap: 70px;
+    }
+  
+    .flexboxpriserdiv1 {
+      width: 100%;
+    }
+  
+  }
