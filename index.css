@@ -29,6 +29,10 @@ h3 {
 
 p {
   font-size: 1.2rem;
+  margin-right: 5%;
+  margin-left: 5%;
+  line-height: 1.5;
+  margin-bottom: 3%;
 }
 
 .video {
