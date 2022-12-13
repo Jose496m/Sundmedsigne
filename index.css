@@ -75,14 +75,14 @@ main p {
 
 .flex_column2 {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
   width: 50%;
+  flex-direction: column;
 }
 
 video {
   width: 95%;
   margin-bottom: 3%;
+  margin-inline: auto;
 }
 
 .sundhed {
@@ -205,4 +205,30 @@ video {
 
   
 
+}
+
+.video-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-player-button {
+  font-family: Quicksand;
+  background-color: #037171;
+  color: white;
+  border-radius: 2rem;
+  text-decoration: none;
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  margin-inline: auto;
+  cursor: pointer;
+}
+
+
+
+.playing {
+  background-color: #02c3bd;
 }
