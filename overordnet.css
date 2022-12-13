@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+	
+html {
+  --primary-color: black;
+  --secondary-color: #02c3bd;
+  --tertiary-color: #037171;
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -28,22 +35,22 @@ body {
 
 h1 {
   font-family: Quicksand;
-  color: black;
+  color: var(--primary-color);
 }
 
 h2 {
   font-family: Quicksand;
-  color: black;
+  color: var(--primary-color);
 }
 
 h3 {
   font-family: Pontano Sans;
-  color: black;
+  color: var(--primary-color);
 }
 
 p {
   font-family: Pontano Sans;
-  color: black;
+  color: var(--primary-color);
 }
 
 header nav li {
@@ -110,13 +117,13 @@ nav ul li a {
   text-decoration: none;
   font-size: 1.1rem;
   font-family: Quicksand;
-  color: black;
+  color: var(--primary-color);
 }
 
 nav ul li a:hover {
   text-decoration: none;
   padding: 15px;
-  background-color: #02c3bd;
+  background-color: var(--secondary-color);
   border-radius: 30px;
   font-size: 1.1rem;
   font-family: Quicksand;
@@ -171,7 +178,7 @@ nav {
 
 .linkfooter {
   text-decoration: none;
-  color: black;
+  color: var(--primary-color);
 }
 
 @media (max-width: 700px) {
