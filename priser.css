@@ -37,6 +37,22 @@ p {
     border: solid 1px;
 }
 
+.prisikon1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    margin-top: 6%;
+}
+
+.prisikon2 {
+    margin-top: 6%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
 @media (max-width: 1050px) {
     .flexboxpriser {
       flex-direction: column;
